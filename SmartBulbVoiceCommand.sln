@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartBulbVoiceCommand.UWP",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartBulbVoiceCommand.iOS", "SmartBulbVoiceCommand\SmartBulbVoiceCommand.iOS\SmartBulbVoiceCommand.iOS.csproj", "{F8BE16A1-9EF3-48FA-BD64-984F29641883}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clients", "Clients", "{C7E0803A-FD70-48AE-9E1F-2AAB57119E88}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU
@@ -254,6 +256,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3BCC4B4C-7099-4C28-83A3-5F2D85A44EB2} = {C7E0803A-FD70-48AE-9E1F-2AAB57119E88}
+		{DBE572B6-4267-4BAF-87C5-DC4418BEDAFD} = {C7E0803A-FD70-48AE-9E1F-2AAB57119E88}
+		{F8BE16A1-9EF3-48FA-BD64-984F29641883} = {C7E0803A-FD70-48AE-9E1F-2AAB57119E88}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B0F78FC8-583B-4C2B-ABE4-079CAA40282E}
